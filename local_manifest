@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="Redmi-MT6768"
-           fetch="https://github.com/Redmi-MT6768"
-           revision="eleven"/>
-  <remote  name="me" fetch="https://github.com/orkunergun"/>
-  <remote  name="clang" fetch="https://github.com/kdrag0n"/>
 
 
  <!-- Device Trees -->
@@ -15,7 +10,6 @@
   <project path="kernel/xiaomi/mt6768" name="LightningPlus" remote="me" revision="12.1"/>
   <project path="vendor/xiaomi/merlinx" name="android_vendor_xiaomi_merlinx" remote="Redmi-MT6768"/>
   <project path="device/mediatek/sepolicy_vndr" name="PixelExperience/device_mediatek_sepolicy_vndr" remote="github" revision="eleven"/>
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1"/>
 
 
 </manifest>
