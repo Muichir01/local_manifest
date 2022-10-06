@@ -4,7 +4,7 @@
 
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="Futar0/android_device_xiaomi_lava.git" remote="github" revision="eleven"/>
+  <project path="device/xiaomi/lava" name="Futar0/android_device_xiaomi_lava.git" remote="github" revision="evox-eleven"/>
   <project path="device/xiaomi/mt6768-common" name="Futar0/android_device_xiaomi_mt6768-common.git" remote="github" revision="lineage-18.1"/>
   <project path="kernel/xiaomi/mt6768" name="Futar0/LightningPlus.git" remote="github" revision="12.1"/>
   <project path="vendor/xiaomi/lava" name="Futar0/android_vendor_xiaomi_lava.git" remote="github" revision="eleven"/>
