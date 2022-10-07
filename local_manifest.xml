@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
+<remote name="github"
+        fetch="https://github.com/Futar0" />
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="Futar0/android_device_xiaomi_lava.git" remote="github" revision="lineage-18.1"/>
