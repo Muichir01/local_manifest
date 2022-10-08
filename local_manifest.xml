@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="github"
+        <remote name="self"
         fetch="https://github.com/Futar0" />
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="Futar0/android_device_xiaomi_lava.git" remote="github" revision="evox-eleven"/>
-  <project path="device/xiaomi/mt6768-common" name="Futar0/android_device_xiaomi_mt6768-common.git" remote="github" revision="lineage-18.1"/>
-  <project path="kernel/xiaomi/mt6768" name="Futar0/LightningPlus.git" remote="github" revision="12.1"/>
-  <project path="vendor/xiaomi/lava" name="Futar0/android_vendor_xiaomi_lava.git" remote="github" revision="eleven"/>
-  <project path="device/mediatek/sepolicy_vndr" name="Futar0/device_mediatek_sepolicy_vndr.git" remote="github" revision="eleven"/>
+  <project path="device/xiaomi/lava" name="Futar0/android_device_xiaomi_lava.git" remote="self" revision="evox-eleven"/>
+  <project path="device/xiaomi/mt6768-common" name="Futar0/android_device_xiaomi_mt6768-common.git" remote="self" revision="lineage-18.1"/>
+  <project path="kernel/xiaomi/mt6768" name="Futar0/LightningPlus.git" remote="self" revision="12.1"/>
+  <project path="vendor/xiaomi/lava" name="Futar0/android_vendor_xiaomi_lava.git" remote="self" revision="eleven"/>
+  <project path="device/mediatek/sepolicy_vndr" name="Futar0/device_mediatek_sepolicy_vndr.git" remote="self" revision="eleven"/>
 
 
 </manifest>
