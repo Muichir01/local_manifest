@@ -3,7 +3,7 @@
 
 <remote name="me"
         fetch="https://github.com/Futar0" />
-<remote  name="clang" fetch="https://github.com/kdrag0n"/>
+
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="android_device_xiaomi_lava.git" remote="me" revision="lineage-18.1"/>
@@ -11,7 +11,5 @@
   <project path="kernel/xiaomi/mt6768" name="LightningPlus.git" remote="me" revision="12.1"/>
   <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava.git" remote="me" revision="eleven"/>
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr.git" remote="me" revision="eleven"/>
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1"/>
-</manifest>
-
+  
 
