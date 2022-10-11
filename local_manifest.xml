@@ -11,5 +11,4 @@
   <project path="kernel/xiaomi/mt6768" name="LightningPlus.git" remote="me" revision="12.1"/>
   <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava.git" remote="me" revision="eleven"/>
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr.git" remote="me" revision="eleven"/>
-  
-
+</manifest>
