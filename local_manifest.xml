@@ -12,8 +12,6 @@
   <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava.git" remote="me" revision="twelve"/>
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr.git" remote="me" revision="twelve"/>
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1"/>
-
-
  <!-- Extras -->
  <remove-project name="frameworks_opt_telephony"/>
  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="me" revision="twelve"/>
