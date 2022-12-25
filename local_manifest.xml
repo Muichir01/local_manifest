@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
+<remote  name="futar0"
+           fetch="https://github.com/Futar0" /> 
 
-     <!-- Remotes -->
-    <remote name="me"
-          fetch="https://github.com/Futar0"
-          clone-depth="1" /> 
-    
-    <!-- Sync trees -->
-    <project path="device/xiaomi/spes" name="android_device_xiaomi_spes.git" remote="me" revision="12.1" />
-    <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes.git" remote="me" revision="12.1" />
-    <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header.git" remote="me" revision="12" />
-    <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1.git" remote="me" revision="arrow-11.0" />
-    
-    <!-- HALs -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="me" revision="lineage-19.1" />
-    </manifest>    
+<remote  name="dev"
+           fetch="https://github.com/Jabiyeff" /> 
+ <project path="device/xiaomi/spes" name="android_device_xiaomi_spes-1" remote="futar0" revision="test3"/>
+ <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes-1" remote="futar0" revision="test3"/>
+ <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="dev" revision="12"  clone-depth="1"/>
+
+<!-- Additional required repos -->
+  </manifest>
