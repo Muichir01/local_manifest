@@ -13,5 +13,7 @@
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1.git" remote="me" revision="arrow-11.0" />
     
     <!-- HALs -->
-    <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="me" revision="lineage-19.1" />
-    </manifest>    
+<project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="me" revision="lineage-19.1" />
+<remove-project name="android_hardware_google_pixel" />
+<project path="hardware/google/pixel" name="android_hardware_google_pixel.git" remote="me" revision="lineage-19.1" />
+     </manifest>    
