@@ -9,7 +9,7 @@
     <!-- Sync trees -->
     <project path="device/xiaomi/spes" name="android_device_xiaomi_spes-1" remote="me" revision="lineage-20.0" />
     <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes-1" remote="me" revision="lineage-20.0" />
-    <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="me" revision="lineage-20.0" />
+    <project path="kernel/xiaomi/spes" name="android_kernel_xiaomi_spes" remote="me" revision="lineage-20.0" />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="me" revision="lineage-20" />
     <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="me" revision="arrow-11.0" />
 </manifest>
