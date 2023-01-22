@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="dev" fetch="https://github.com/mt6768-dev" />
   <remote name="me" fetch="https://github.com/Futar0" />
