@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="dev" fetch="https://github.com/mt6768-dev" />
   <remote name="me" fetch="https://github.com/Futar0" />
   
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="me" revision="lineage-20"/>
   <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot" remote="me" revision="lineage-20"/>
-  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="dev" revision="lineage-20"/>
-  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>
-  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dev" revision="lineage-20"/>
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="dev" revision="lineage-20"/>
-  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/>
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="me" revision="lineage-20"/>
+  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="me" revision="lineage-20"/>
+  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot" remote="me" revision="lineage-20"/>
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="me" revision="lineage-20"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="me" revision="lineage-20"/>
+  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="me" revision="lineage-20"/>
 </manifest>
