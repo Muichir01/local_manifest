@@ -9,23 +9,21 @@
        
   <!-- Device -->
   <project path="device/xiaomi/lancelot" name="Futar0/android_device_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
-  <project path="device/xiaomi/mt6768-common" name="mt6768-dev/android_device_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>
+  <project path="device/xiaomi/mt6768-common" name="Futar0/android_device_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>
 
   <!-- Vendor -->
-  <project path="vendor/xiaomi/lancelot" name="mt6768-dev/proprietary_vendor_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
-  <project path="vendor/xiaomi/mt6768-common" name="mt6768-dev/proprietary_vendor_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>
+  <project path="vendor/xiaomi/lancelot" name="Futar0/proprietary_vendor_xiaomi_lancelot" remote="dev" revision="lineage-20"/>
+  <project path="vendor/xiaomi/mt6768-common" name="Futar0/proprietary_vendor_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>
   
   <!-- Kernel -->
-  <project path="kernel/xiaomi/mt6768" name="mt6768-dev/android_kernel_xiaomi_mt6768" remote="dev" revision="lineage-20"/>
+  <project path="kernel/xiaomi/mt6768" name="Futar0/android_kernel_xiaomi_mt6768" remote="dev" revision="lineage-20"/>
 
   <!-- Sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="mt6768-dev/android_device_mediatek_sepolicy_vndr" remote="dev" revision="lineage-20"/>
+  <project path="device/mediatek/sepolicy_vndr" name="Futar0/android_device_mediatek_sepolicy_vndr" remote="dev" revision="lineage-20"/>
 
   <!-- Hardware -->
-  <project path="hardware/mediatek" name="mt6768-dev/android_hardware_mediatek" remote="dev" revision="lineage-20"/>
+  <project path="hardware/mediatek" name="Futar0/android_hardware_mediatek" remote="dev" revision="lineage-20"/>
 
   <!-- Packages -->
-  <project path="packages/apps/MtkFMRadio" name="mt6768-dev/android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/>
-  <!-- Extra -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+  <project path="packages/apps/MtkFMRadio" name="Futar0/android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/>
 </manifest>
