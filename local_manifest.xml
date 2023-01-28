@@ -10,11 +10,6 @@
         fetch="https://github.com/CipherOS" />
 <remote name="clang" 
         fetch="https://gitlab.com/ImSurajxD" />
-<!-- Extras -->
-   <remove-project name="crdroidandroid/android_frameworks_opt_net_ims"/>
-   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="imss" revision="thirteen" clone-depth="1" />
-   <remove-project name="crdroidandroid/android_frameworks_opt_telephony" />
-   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="imss" revision="thirteen" clone-depth="1" />
 
         
   <!-- Device Trees -->
