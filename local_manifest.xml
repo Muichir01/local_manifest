@@ -11,9 +11,6 @@
 <remote name="clang" 
         fetch="https://gitlab.com/ImSurajxD" />
  
-
-  <project path="frameworks/base" name="android_frameworks_base.git" remote="imss" revision="thirteen" clone-depth="1" />
-
         
   <!-- Device Trees -->
   <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot.git" remote="me" revision="lineage-20" clone-depth="1" />
