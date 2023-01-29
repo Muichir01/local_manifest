@@ -11,8 +11,8 @@
 <remote name="clang" 
         fetch="https://gitlab.com/ImSurajxD" />
  
-<remove-project name="CipherOS/android_frameworks_base"/>
-<project path="frameworks/base" name="android_frameworks_base" remote="imss" revision="thirteen" clone-depth="1" />
+
+  <project path="frameworks/base" name="android_frameworks_base.git" remote="imss" revision="thirteen" clone-depth="1" />
 
         
   <!-- Device Trees -->
