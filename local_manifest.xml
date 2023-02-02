@@ -6,14 +6,12 @@
         fetch="https://github.com/Futar0" />
 <remote name="dev"
         fetch="https://github.com/mt6768-dev" />
-<remote name="imss"
-        fetch="https://github.com/CipherOS" />
 <remote name="clang" 
         fetch="https://gitlab.com/ImSurajxD" />
  
         
   <!-- Device Trees -->
-  <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot.git" remote="me" revision="Cipher13" clone-depth="1" />
+  <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot.git" remote="me" revision="aosp" clone-depth="1" />
   <project path="device/xiaomi/mt6768-common" name="Uzui01/mt6768-common.git" remote="hub" revision="thirteen" clone-depth="1" />
   <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768.git" remote="me" revision="lineage-20" clone-depth="1" />
   <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot.git" remote="me" revision="lineage-20" clone-depth="1" />
