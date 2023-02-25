@@ -5,9 +5,6 @@
 <remote name="me"
         fetch="https://github.com/Futar0" />
         
-        <remove-project name="LineageOS/android_hardware_lineage_compat" />
- 
-        
   <!-- Device Trees -->
   <project path="device/xiaomi/certus" name="android_device_xiaomi_certus.git" remote="me" revision="10-rros" clone-depth="1" />
   <project path="kernel/xiaomi/mt6765" name="android_kernel_xiaomi_mt6765.git" remote="me" revision="10-alps" clone-depth="1" />
