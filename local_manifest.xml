@@ -4,6 +4,10 @@
         fetch="https://github.com" />
 <remote name="me"
         fetch="https://github.com/Futar0" />
+
+<remove-project name="platform/frameworks_opt_net_ims"/>
+<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims.git" remote="me" revision="twelve-L" clone-depth="1"/>      
+
         
   <!-- Device Trees -->
   <project path="device/xiaomi/certus" name="device_certus.git" remote="me" revision="awaken-12.1" clone-depth="1" />
