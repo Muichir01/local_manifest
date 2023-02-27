@@ -5,7 +5,7 @@
 <remote name="me"
         fetch="https://github.com/Futar0" />
 
-<remove-project name="platform/frameworks_opt_net_ims"/>
+<remove-project name="platform/frameworks/opt/net/ims"/>
 <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims.git" remote="me" revision="twelve-L" clone-depth="1"/>      
 
         
