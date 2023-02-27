@@ -4,8 +4,6 @@
         fetch="https://github.com/Futar0" />
  
 <!-- Extras -->
-  <remove-project name="LineageOS/android_frameworks_opt_telephony"/> 
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony.git" remote="me" revision="eleven" clone-depth="1"/>
   <remove-project name="LineageOS/android_frameworks_opt_net_ims"/>
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims.git" remote="me" revision="eleven" clone-depth="1"/>      
 
