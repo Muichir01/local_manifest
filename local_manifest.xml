@@ -12,7 +12,7 @@
   <!-- Device Trees -->
   <project path="device/xiaomi/certus" name="device_certus.git" remote="me" revision="awaken-12.1" clone-depth="1" />
   <project path="kernel/xiaomi/mt6765" name="kernel_certus.git" remote="me" revision="10-alps" clone-depth="1" />
-  <project path="vendor/xiaomi/certus" name="proprietary_vendor_xiaomi.git" remote="me" revision="12.1" clone-depth="1" />
+  <project path="vendor/xiaomi/certus" name="vendor_certus.git" remote="me" revision="12" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-7.5" name="linaro_arm.git" remote="me" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="me" revision="arrow-11.0" />      
  </manifest>
