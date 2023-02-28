@@ -7,7 +7,7 @@
 
 <remove-project name="platform/frameworks/opt/net/ims"/>
 <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims.git" remote="me" revision="twelve-L" clone-depth="1"/>      
-<remove-project name="platform/frameworks/opt/telephony"/>
+<remove-project name="LineageOS/android_frameworks_opt_telephony"/>
 <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony.git" remote="me" revision="twelve-L" clone-depth="1"/>       
   <!-- Device Trees -->
   <project path="device/xiaomi/certus" name="device_certus.git" remote="me" revision="awaken-12.1" clone-depth="1" />
