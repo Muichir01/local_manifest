@@ -10,7 +10,7 @@
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims.git" remote="me" revision="twelve-L" clone-depth="1"/> 
   
   <!-- Device Trees -->
-  <project path="device/xiaomi/certus" name="android_device_xiaomi_certus.git" remote="me" revision="kscope-12.1" clone-depth="1" />
+  <project path="device/xiaomi/certus" name="android_device_xiaomi_certus.git" remote="me" revision="spark-12.1" clone-depth="1" />
   <project path="kernel/xiaomi/mt6765" name="kernel_certus.git" remote="me" revision="10-alps" clone-depth="1" />
   <project path="vendor/xiaomi/certus" name="vendor_xiaomi.git" remote="me" revision="12" clone-depth="1" />
   <project path="vendor/mediatek-ims" name="vendor_ims.git" remote="me" revision="12" clone-depth="1" />
