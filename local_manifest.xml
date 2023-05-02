@@ -6,9 +6,9 @@
         fetch="https://github.com/Futar0" />
         
         <!-- Extras -->
-  <remove-project name="platform/android/frameworks/opt/net/ims"/>
+  <remove-project name="platform/frameworks/opt/net/ims"/>
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims.git" remote="me" revision="twelve-L" clone-depth="1"/> 
-  <remove-project name="platform/android/frameworks/opt/telephony"/> 
+  <remove-project name="platform/frameworks/opt/telephony"/> 
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony.git" remote="me" revision="twelve-L" clone-depth="1"/>
   <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm"/>
   <project path="external/chromium-webview/prebuilt/arm" name="webview-arm.git" remote="me" revision="main" clone-depth="1"/> 
