@@ -17,7 +17,7 @@
   <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86"/> 
   <project path="external/chromium-webview/prebuilt/x86" name="webview-arm86.git" remote="me" revision="main" clone-depth="1"/>
   <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86_64"/> 
-  <project path="external/chromium-webview/prebuilt/x86_64" name="webview-arm86x64.git" remote="me" revision="main" clone-depth="1"/>               
+  <project path="external/chromium-webview/prebuilt/x86_64" name="webview-arm86x64" remote="me" revision="main" clone-depth="1"/>               
    
    
   
