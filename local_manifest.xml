@@ -21,7 +21,7 @@
    
   <!-- Device Trees -->
   <project path="device/xiaomi/certus" name="android_device_xiaomi_certus.git" remote="me" revision="fluid-12.1" clone-depth="1" />
-  <project path="kernel/xiaomi/mt6765" name="kernel_certus.git" remote="me" revision="10-alps" clone-depth="1" />
+  <project path="kernel/xiaomi/mt6765" name="kernel_xiaomi_mt6765.git" remote="me" revision="10-alps" clone-depth="1" />
   <project path="vendor/xiaomi/certus" name="vendor_xiaomi.git" remote="me" revision="12" clone-depth="1" />
   <project path="vendor/mediatek-ims" name="vendor_ims.git" remote="me" revision="12" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-7.5" name="linaro_arm.git" remote="me" revision="master" clone-depth="1" />
