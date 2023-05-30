@@ -25,5 +25,5 @@
   <project path="vendor/xiaomi/certus" name="vendor_xiaomi.git" remote="me" revision="12" clone-depth="1" />
   <project path="vendor/mediatek-ims" name="vendor_ims.git" remote="me" revision="12" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-7.5" name="linaro_arm.git" remote="me" revision="master" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="me" revision="arrow-11.0" />      
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="me" revision="arrow-11.0" clone-depth="1" />      
  </manifest>
