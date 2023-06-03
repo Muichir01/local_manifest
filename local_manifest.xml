@@ -7,10 +7,12 @@
         
         <!-- Extras -->
 
-<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims.git" remote="me" revision="twelve-L" clone-depth="1"/> 
+<remove-project name="frameworks/opt/net/ims"/>
+<project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims.git" remote="me" revision="twelve-L" clone-depth="1"/>
+<remove-project name="frameworks/opt/telephony"/> 
 <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony.git" remote="me" revision="twelve-L" clone-depth="1"/>
-
-  <!-- Device Trees -->
+ 
+ <!-- Device Trees -->
   <project path="device/xiaomi/certus" name="device_certus.git" remote="me" revision="derp-12" clone-depth="1" />
   <project path="kernel/xiaomi/mt6765" name="kernel_certus.git" remote="me" revision="10-alps" clone-depth="1" />
   <project path="vendor/xiaomi/certus" name="vendor_certus.git" remote="me" revision="12" clone-depth="1" />
