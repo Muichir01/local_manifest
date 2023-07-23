@@ -3,12 +3,6 @@
 <remote name="me"
         fetch="https://github.com/Futar0" />
  
-<!-- Extras -->
-  <remove-project name="platform/frameworks/opt/net/ims"/>
-  <project path="frameworks/opt/net/ims" name="pe_ims.git" remote="me" revision="eleven" clone-depth="1"/> 
-  <remove-project name="crdroidandroid/android_frameworks_opt_telephony"/> 
-  <project path="frameworks/opt/telephony" name="pe_telephony.git" remote="me" revision="eleven" clone-depth="1"/>     
-
   <!-- Device Trees -->
   <project path="device/xiaomi/certus" name="android_device_xiaomi_certus.git" remote="me" revision="Los-11" clone-depth="1" />
   <project path="kernel/xiaomi/mt6765" name="kernel_xiaomi_mt6765.git" remote="me" revision="10-alps" clone-depth="1" />
